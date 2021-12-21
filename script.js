@@ -21,7 +21,7 @@ let buttonPrg = document.querySelectorAll ("button")[0];
 buttonPrg.addEventListener('click', () => {
     let allMyChildren=document.querySelectorAll('p');
     allMyChildren.forEach((thisChild) => {
-        thisChild.style.color = "#FFFFFF";
+        thisChild.style.color = "red";
     })
     
 })
